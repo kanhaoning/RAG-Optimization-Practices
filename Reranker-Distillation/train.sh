@@ -1,0 +1,21 @@
+torchrun --nproc_per_node 1 train.py \
+    --model_name_or_path Qwen/Qwen3-Reranker-8B \
+    --train_data train_distill_qwen3_8b_vLLMlogit_margin_sampled.jsonl \
+    --eval_data test_distill_qwen3_8b_vLLMlogit_margin_sampled.jsonl \
+    --output_dir output \
+    --max_length 4096 \
+    --num_train_epochs 1 \
+    --per_device_train_batch_size 16 \
+    --gradient_accumulation_steps 32 \
+    --learning_rate 2e-5 \
+    --warmup_ratio 0.05 \
+    --logging_steps 1 \
+    --save_strategy "steps" \
+    --save_steps 10000 \
+    --eval_strategy "steps" \
+    --eval_steps 10000 \
+    --save_total_limit 2 \
+    --bf16 \
+    --load_best_model_at_end \
+    --save_only_mode true \
+    --metric_for_best_model "eval_loss"
