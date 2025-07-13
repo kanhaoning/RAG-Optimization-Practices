@@ -1,9 +1,8 @@
-PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python \
 torchrun --nproc_per_node 1 train.py \
-    --model_name_or_path /root/autodl-tmp/bge-reranker-v2-m3 \
+    --model_name_or_path Qwen/Qwen3-Reranker-8B \
     --train_data train_distill_qwen3_8b_vLLMlogit_margin_sampled.jsonl \
     --eval_data test_distill_qwen3_8b_vLLMlogit_margin_sampled.jsonl \
-    --output_dir output4 \
+    --output_dir output \
     --max_length 4096 \
     --num_train_epochs 1 \
     --per_device_train_batch_size 16 \

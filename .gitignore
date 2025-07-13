@@ -14,7 +14,7 @@ checkpoint-*/
 *.jsonl
 *.jsonl.gz
 *.txt
-
+*draft*
 # 虚拟环境
 venv/
 env/
