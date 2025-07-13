@@ -1,0 +1,20 @@
+# Python 缓存
+__pycache__/
+*.pyc
+
+# Jupyter Notebook 缓存
+.ipynb_checkpoints
+
+# 训练输出和日志
+output/
+checkpoint-*/
+*.log
+
+# 数据文件 (通常这些文件太大，不适合放在 Git 仓库中)
+*.jsonl
+*.jsonl.gz
+*.txt
+
+# 虚拟环境
+venv/
+env/
