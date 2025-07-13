@@ -4,7 +4,7 @@ __pycache__/
 
 # Jupyter Notebook 缓存
 .ipynb_checkpoints
-
+.ipynb
 # 训练输出和日志
 output/
 checkpoint-*/
