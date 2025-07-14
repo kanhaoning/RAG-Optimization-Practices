@@ -7,7 +7,7 @@
   <a href="https://huggingface.co/BAAI/bge-reranker-v2-m3" target="_blank"> <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Model-BGE--Reranker-yellow" alt="Hugging Face Model"></a>
 </p>
 
-> **本项目配有详细教程，欢迎阅读：[知乎](https://zhuanlan.zhihu.com/p/1928223248396551046)**
+> **本项目配有详细教程：[知乎](https://zhuanlan.zhihu.com/p/1928223248396551046)**
 
 ## 1. 项目简介
 
