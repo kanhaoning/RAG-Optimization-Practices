@@ -3,10 +3,11 @@
 <p align="center">
   <a href="https://pytorch.org/" target="_blank"> <img src="https://img.shields.io/badge/PyTorch-2.6-red.svg" alt="PyTorch Version"></a>
   <a href="https://www.sbert.net/" target="_blank"> <img src="https://img.shields.io/badge/Sentence--Transformers-5.0-blue.svg" alt="Sentence-Transformers Version"></a>
-  <br>
   <a href="https://huggingface.co/Qwen/Qwen3-Reranker-8B" target="_blank"> <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Model-Qwen3--reranker-yellow" alt="Hugging Face Model"></a>
   <a href="https://huggingface.co/BAAI/bge-reranker-v2-m3" target="_blank"> <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Model-BGE--Reranker-yellow" alt="Hugging Face Model"></a>
 </p>
+
+> **本项目配有详细教程，欢迎阅读：[知乎](https://zhuanlan.zhihu.com/p/1928223248396551046)**
 
 ## 1. 项目简介
 
