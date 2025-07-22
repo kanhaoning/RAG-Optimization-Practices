@@ -40,8 +40,6 @@
 git clone https://github.com/kanhaoning/RAG-Optimization-Practices.git
 cd RAG-Optimization-Practices/Reranker-Distillation
 pip install -r requirements.txt 
-# 安装核心依赖
-pip install torch sentence-transformers==5.0.0 transformers==4.53.1 vllm==0.8.4
 ```
 
 ### 3.2. 下载模型与数据集

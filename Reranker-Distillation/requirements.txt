@@ -1,0 +1,15 @@
+# 核心依赖 (Core Dependencies)
+torch>=2.5.0, <2.7
+sentence-transformers>=5.0.0, <6.0
+transformers>=4.53.1, <4.54
+vllm>=0.8.4, <0.9
+
+
+# 数据集处理 (Dataset Handling)
+datasets
+
+# 模型下载 (Model Downloading)
+modelscope
+
+# 辅助工具 (Utilities)
+tqdm
