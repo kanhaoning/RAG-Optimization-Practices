@@ -6,7 +6,7 @@
 # --tensor_parallel_size: GPU卡数
 python generate_distillation_data.py \
   --teacher_model_path "your_path_to/Qwen3-Embedding-8B" \
-  --input_files scidocs-reranking/validation.jsonl \
+  --input_files dataset_scidocs/validation.jsonl \
   --output_suffix _kldiv_distill \
   --batch_size 4 \
   --tensor_parallel_size 1
