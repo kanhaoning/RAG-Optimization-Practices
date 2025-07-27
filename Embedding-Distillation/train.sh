@@ -1,0 +1,17 @@
+torchrun --nproc_per_node 1 train.py \
+    --student_model_name_or_path BAAI/bge-m3 \
+    --train_dataset_path scidocs-reranking/validation_kldiv_distill.jsonl \
+    --output_dir output \
+    --num_train_epochs 1 \
+    --per_device_train_batch_size 16 \
+    --gradient_accumulation_steps 32 \
+    --learning_rate 6e-5 \
+    --warmup_ratio 0.02 \
+    --logging_strategy "steps" \
+    --logging_steps 1 \
+    --save_strategy "steps" \
+    --save_only_model true \
+    --save_steps 1000 \
+    --save_total_limit 2 \
+    --bf16 \
+    --eval_strategy "no"

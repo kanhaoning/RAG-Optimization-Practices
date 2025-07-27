@@ -21,7 +21,7 @@
 │   ├── train.sh                  # 步骤3: 训练学生模型
 │   └── evaluation.sh             # 步骤4: 评测性能
 │
-├── 📁 Embedder-Finetuning/    (⏳ 规划中)
+├── 📁 Embedding-Distillation/    (⏳ 开发中)
 └── 📁 Query-Expansion-Finetuning/ (⏳ 规划中)
 ```
 
