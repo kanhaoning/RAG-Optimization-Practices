@@ -24,10 +24,10 @@ def parse_arguments():
                         help='需要处理的原始数据文件路径列表 (例如: validation.jsonl test.jsonl)。')
     parser.add_argument('--output_suffix', type=str, default='_kldiv_distill',
                         help='添加到输出文件名中的后缀。')
-    parser.add_argument('--batch_size', type=int, default=1024,
+    parser.add_argument('--batch_size', type=int, default=4,
                         help='vLLM 编码时使用的批处理大小，请根据您的 GPU 显存进行调整。')
     parser.add_argument('--tensor_parallel_size', type=int, default=int(os.getenv("VLLM_TENSOR_PARALLEL_SIZE", 1)),
-                        help='vLLM 使用的张量并行大小。')
+                    help='vLLM 使用的张量并行大小。')
     return parser.parse_args()
 
 
