@@ -12,7 +12,6 @@ checkpoint-*/
 # 数据文件 (通常这些文件太大，不适合放在 Git 仓库中)
 *.jsonl
 *.jsonl.gz
-*.txt
 *draft*
 *blog*
 
