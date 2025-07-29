@@ -12,6 +12,7 @@
 # --save_only_model:            只保存模型权重，不保存优化器状态等，可以节省空间
 # --save_steps:                 每隔多少步保存一次 checkpoint
 # --save_total_limit:           最多保存多少个 checkpoint
+# --temperature:                损失函数DistillKLDivLoss的温度超参数
 # --bf16:                       启用 bf16 混合精度训练，可以加速训练并减少显存占用
 # --eval_strategy:              评估策略，"no" 表示训练期间不进行评估
 torchrun --nproc_per_node 1 train.py \
@@ -29,5 +30,6 @@ torchrun --nproc_per_node 1 train.py \
     --save_only_model true \
     --save_steps 1000 \
     --save_total_limit 2 \
+    --temperature 1 \
     --bf16 \
     --eval_strategy "no"
