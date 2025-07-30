@@ -7,7 +7,7 @@
   <a href="https://huggingface.co/BAAI/bge-m3" target="_blank"> <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Model-BGE--m3-yellow" alt="Hugging Face Model"></a>
 </p>
 
-> **本项目配有详细教程：[将向量大模型Qwen3-Embedding-8B的知识蒸馏到小模型BGE-m3上](https://www.google.com/search?q=https://your-blog-post-link-here)**
+> **本项目配有详细教程：[将向量大模型Qwen3-Embedding-8B的知识蒸馏到小模型BGE-m3上](https://zhuanlan.zhihu.com/p/1933693856077026394)**
 ## 1\. 项目简介
 
 本项目是 **RAG 优化实战系列** 的第二部分， **Embedding 模型的知识蒸馏**。
